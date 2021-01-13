@@ -16,6 +16,7 @@
       height="400"
       alt="Woman with umbrella"
     />
+    <div id="like_button_container"></div>
     <h3>From Steve Krug's book "Don't make me think", on accessibility:</h3>
     <h4>Don’t use small, low-contrast type.</h4>
     <p>
@@ -52,6 +53,35 @@
       Headings should be closer to the text that follows them than the text that
       precedes them.
     </p>
+    <h2>Add React in One Minute</h2>
+    <p>This page demonstrates using React with no build tooling.</p>
+    <p>React is loaded as a script tag.</p>
+
+    <p>
+      This is the first comment.
+      <!-- We will put our React component inside this div. -->
+      <div class="like_button_container" data-commentid="1"></div>
+    </p>
+
+    <p>
+      This is the second comment.
+      <!-- We will put our React component inside this div. -->
+      <div class="like_button_container" data-commentid="2"></div>
+    </p>
+
+    <p>
+      This is the third comment.
+      <!-- We will put our React component inside this div. -->
+      <div class="like_button_container" data-commentid="3"></div>
+    </p>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script src="https://unpkg.com/react@17/umd/react.production.min.js.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js.js" crossorigin></script>
+
+    <!-- Load our React component. -->
+    <script src="like_button.js"></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>

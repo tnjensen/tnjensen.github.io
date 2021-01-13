@@ -1,0 +1,23 @@
+{
+  "name": "tnjensen.github.io",
+  "version": "1.0.0",
+  "description": "Example site with default folder structure and content",
+  "main": "like_button.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnjensen/tnjensen.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnjensen/tnjensen.github.io/issues"
+  },
+  "homepage": "https://github.com/tnjensen/tnjensen.github.io#readme",
+  "dependencies": {
+    "terser": "^5.5.1"
+  }
+}
