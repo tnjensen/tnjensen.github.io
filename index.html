@@ -6,9 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Test Site</title>
+    <link rel="icon" href="/images/favicon.ico" />
+    <!-- 32×32 -->
+    <link rel="icon" href="/images/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/images/apple.png" />
+    <!-- 180×180 -->
+    <link rel="manifest" href="manifest.webmanifest.json" />
   </head>
   <body>
     <h1>Test Site Home Page</h1>
+    <svg class="lnr lnr-home"><use xlink:href="#lnr-home"></use></svg> lnr-home
     <button>Click me</button>
     <img
       src="images/pexels-julie-aagaard-3144205.jpg"
@@ -67,5 +74,6 @@
     <!-- Load our React component. -->
     <script src="like_button.js"></script>
     <script src="scripts/main.js"></script>
+    <script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
   </body>
 </html>
